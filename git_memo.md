@@ -33,4 +33,6 @@ git init
 ステージングエリアとgitディレクトリの差分の確認
 
 ## ファイルのコミット  
-- git commit
+- git commit  
+コミットができる　　
+コメントをvscodeで記入できるらしい…
