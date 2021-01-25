@@ -46,7 +46,15 @@ git init
 - git checkout  
 gitディレクトリからの取消し
 # Gitの管理下にあるファイルの削除  
-  
+
+# GitHub
+## git clone
+- リモートリポジトリのURLをGitHubで取得  
+  - "Cline with SSH"にする  
+- git clone xxx  
+  - 特にあらかじめフォルダを作る必要はなく指定した場所の下にフォルダが作成される
+  - フォルダを作りたいフォルダに移動してから実行のこと
+  -　xxxはgithubのページからコピーする
 
 ## git restore 元に戻す
 ## git switch 指定ブランチに切替え
@@ -54,3 +62,4 @@ gitディレクトリからの取消し
 ## git branch ブランチ一覧を表示
 ## git branch -d 指定ブランチ一覧を削除
 ## git merge 指定ブランチをマージ
+
