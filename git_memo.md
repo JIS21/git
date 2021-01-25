@@ -5,6 +5,7 @@
 - git config --global core.editor "code --wait"  
 # 実行
 ## Gitコマンド
+## git init 管理するディレクトリを指定
 
 1. ディレクトリを作る
 
@@ -22,17 +23,24 @@ git init
 ## git status
 - git statusを実行すると現状が見れる(現時点では何もない)
 
-## ステージング git add  
+## git add ステージング  
 -  git add git_memo.md  
 "git_memo.md"はファイル名(例)
 
-## 差分の確認　git diff  
+## git diff 差分の確認　 
 - git diff  
 ワークツリーとステージングエリアの差分の確認  
 - git diff --cached  
 ステージングエリアとgitディレクトリの差分の確認
 
-## ファイルのコミット  
-- git commit  
-コミットができる　　
+## git commit ファイルのコミット  
+- コミットができる(ステージングエリアのファイルをコミットするのでファイル名は要らない)  
 コメントをvscodeで記入できるらしい…
+
+# ローカルでの操作の取消し  
+## git reset と git checkout
+- git reset  
+ステージングエリアからの取消し
+- git checkout  
+gitディレクトリからの取消し
+# Gitの管理下にあるファイルの削除  
