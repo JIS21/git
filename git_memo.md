@@ -32,6 +32,8 @@ git init
 ワークツリーとステージングエリアの差分の確認  
 - git diff --cached  
 ステージングエリアとgitディレクトリの差分の確認
+- git diff --master  
+作業中のブランチと対象ブランチとの差分の確認(ここでは"master"ブランチ)
 
 ## git commit ファイルのコミット  
 - コミットができる(ステージングエリアのファイルをコミットするのでファイル名は要らない)  
@@ -44,3 +46,11 @@ git init
 - git checkout  
 gitディレクトリからの取消し
 # Gitの管理下にあるファイルの削除  
+  
+
+## git restore 元に戻す
+## git switch 指定ブランチに切替え
+## git switch -c 指定ブランチを作成
+## git branch ブランチ一覧を表示
+## git branch -d 指定ブランチ一覧を削除
+## git merge 指定ブランチをマージ
