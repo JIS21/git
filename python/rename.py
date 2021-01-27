@@ -8,10 +8,12 @@ Created on Fri Oct  2 07:58:34 2020
 import os
 import datetime
 
-# SDカードのディレクトリ
-dir_name = 'E:/DCIM/100MEDIA'
+# Movieのディレクトリ
+dir_name = '/Users/seiji_kishida/Movies'
 
-file_m_name = "坂戸図書館・ベルク_スロー"
+# ファイル名を指定
+file_m_name = "アオキ・川越図書館"
+
 
 files = os.listdir(dir_name)
 
