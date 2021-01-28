@@ -7,10 +7,13 @@ Created on Fri Oct  2 22:09:10 2020
 
 import os
 
+# Movieのディレクトリmac
+#dir_name = '/Users/seiji_kishida/Movies'
 # SDカードのディレクトリ
 dir_name = 'E:/DCIM/100MEDIA'
 
-file_m_name = ""
+# ファイル名を指定
+file_m_name = "アオキ・川越図書館"
 
 files = os.listdir(dir_name)
 

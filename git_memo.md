@@ -3,14 +3,17 @@
 # 準備  
 ## vscodeでメッセージを入力できるように設定  
 - git config --global core.editor "code --wait"  
+## .gitignoreファイルを作成
+- .gitignoreファイルにgitで管理したくないファイルを登録
+  - テキストベースでファイル名を記入する
+  - git add/git commit　をする
 # 実行
 ## Gitコマンド
 ## git init 管理するディレクトリを指定
 
 1. ディレクトリを作る
 
-1. gitで
-作ったディレクトリに移動
+1. gitで作ったディレクトリに移動
 git init
 を実行
 
@@ -18,7 +21,6 @@ git init
 
 1. ls -a  
 で確認
-
 
 ## git status
 - git statusを実行すると現状が見れる(現時点では何もない)
